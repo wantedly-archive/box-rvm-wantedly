@@ -7,7 +7,5 @@ description: A wercker rvm box with extension for Wantedly rails build
 keywords:
   - ruby
   - libicu
-packages:
-  - libicu-dev
 script: |
   sudo apt-get install -y libicu-dev
