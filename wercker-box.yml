@@ -1,4 +1,4 @@
-name : rvm-wantedly
+name: rvm-wantedly
 version: 0.0.1
 inherits: wercker/rvm
 type: main
