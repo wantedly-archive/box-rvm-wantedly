@@ -1,6 +1,6 @@
 name: rvm-wantedly
 version: 0.0.1
-inherits: wercker/rvm
+inherits: wercker/rvm@2.5.0
 type: main
 platform: ubuntu@12.04
 description: A wercker rvm box with extension for Wantedly rails build
