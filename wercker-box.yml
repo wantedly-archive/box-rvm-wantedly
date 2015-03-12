@@ -1,12 +1,12 @@
 name: rvm-wantedly
-version: 0.0.2
+version: 0.0.3
 inherits: wercker/rvm@2.5.0
 type: main
 platform: ubuntu@12.04
-description: A wercker rvm box with extension for Wantedly rails build
+description: wercker box for rvm with some extension
 keywords:
   - ruby
   - libicu
 script: |
-  sudo apt-get update -y
+  sudo apt-get update
   sudo apt-get install -y libicu-dev cmake
