@@ -7,6 +7,10 @@ description: wercker box for rvm with some extension
 keywords:
   - ruby
   - libicu
+  - nodejs
 script: |
   sudo apt-get update
-  sudo apt-get install -y libicu-dev cmake
+  sudo apt-get install -y libicu-dev cmake software-properties-common
+  sudo add-apt-repository -y ppa:chris-lea/node.js
+  sudo apt-get update
+  sudo apt-get install nodejs
