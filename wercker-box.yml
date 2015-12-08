@@ -1,5 +1,5 @@
 name: rvm-wantedly
-version: 0.0.5
+version: 0.0.6
 inherits: wercker/rvm@2.5.0
 type: main
 platform: ubuntu@12.04
@@ -14,4 +14,4 @@ script: |
   sudo add-apt-repository -y ppa:chris-lea/node.js
   sudo apt-get update
   sudo apt-get install nodejs
-  sudo gem install bundler --no-rdoc --no-ri
+  gem install bundler --no-rdoc --no-ri
