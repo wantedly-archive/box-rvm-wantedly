@@ -1,6 +1,6 @@
 name: rvm-wantedly
-version: 0.0.6
-inherits: wercker/rvm@2.5.0
+version: 0.0.7
+inherits: wercker/rvm@4.0.0
 type: main
 platform: ubuntu@12.04
 description: wercker box for rvm with some extension
@@ -15,3 +15,5 @@ script: |
   sudo apt-get update
   sudo apt-get install nodejs
   gem install bundler --no-rdoc --no-ri
+  bundle -v
+  echo "bundler -v~>`bundle -v | awk '{ print $3 }'`" > $HOME/.rvm/gemsets/global.gems
