@@ -10,7 +10,7 @@ A wercker box for rvm with some extension
 
 ### wantedly/rvm-wantedly@0.0.9
 
-* ruby 2.3.0(remove 2.1.5)
+* ruby 2.3.0 (remove 2.1.5)
 * node 5.X (supported webpack)
 
 ### wantedly/rvm-wantedly@0.0.8
