@@ -20,4 +20,5 @@ script: |
   wget https://bitbucket.org/ariya/phantomjs/downloads/$PHANTOM_JS.tar.bz2
   sudo tar xvjf $PHANTOM_JS.tar.bz2
   sudo mv $PHANTOM_JS /usr/local/share
-  sudo ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin
+  # sudo ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin
+  sudo mv -f /usr/local/share/$PHANTOM_JS/bin/phantomjs /home/ubuntu/phantomjs/bin/phantomjs
