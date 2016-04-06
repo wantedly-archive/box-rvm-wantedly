@@ -8,6 +8,10 @@ A wercker box for rvm with some extension
 
 ## CHANGE LOG
 
+### wantedly/rvm-wantedly@0.1.2
+
+* Fix PhantomJS v2.1.1
+
 ### wantedly/rvm-wantedly@0.1.1
 
 * Fix PhantomJS v1.9.8
